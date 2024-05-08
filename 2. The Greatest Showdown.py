@@ -25,4 +25,15 @@ print("The smallest number among", num1, ",", num2, ", and", num3, "is:", smalle
 
 #Task 3
 
+if num1 == num2 or num1 == num3 or num2 == num3:
+    print("Two numbers are equal")
+else:
+    if num1 >= num2 and num1>= num3:
+        largestnum= num1
+    elif num2>= num1 and num2 >= num3:
+        largestnum= num2
+    else:
+        largestnum= num3
+
+print("The largest number among", num1, ",", num2, ", and", num3, "is:", largestnum)
 
